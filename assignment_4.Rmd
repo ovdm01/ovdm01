@@ -61,7 +61,9 @@ summary_data <- datasummary(growth + rgdp60 ~ treat*(mean + median + sd + min + 
 print(summary_data)
 ```
 
-**Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
+**Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository.
+
+After running the summary data, you see that there is a difference in the summary statistics for countries with 0 revolutions and countries with more than 0 revolutions. the mean and median differ for example. the means for countries revolutions are namely lower (esp. for rgdp6). we can conclude that country with more than 0 revolutions have lower growth rates.
 
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
